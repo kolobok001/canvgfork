@@ -6,7 +6,7 @@ specifiers:
   '@commitlint/cli': ^16.1.0
   '@commitlint/config-conventional': ^16.0.0
   '@commitlint/cz-commitlint': ^16.1.0
-  '@rollup/plugin-commonjs': ^21.0.1
+  '@rollup/plugin-commonjs': ^22.0.0
   '@rollup/plugin-node-resolve': ^13.0.5
   '@rollup/plugin-replace': ^3.0.0
   '@size-limit/preset-small-lib': ^7.0.8
@@ -69,7 +69,7 @@ devDependencies:
   '@commitlint/cli': 16.1.0_a72f5a06b6493203beab76853c888768
   '@commitlint/config-conventional': 16.0.0
   '@commitlint/cz-commitlint': 16.1.0_f151a90481712f8da5ddf82d794e91d4
-  '@rollup/plugin-commonjs': 21.0.1_rollup@2.67.1
+  '@rollup/plugin-commonjs': 22.0.0_rollup@2.67.1
   '@rollup/plugin-node-resolve': 13.1.3_rollup@2.67.1
   '@rollup/plugin-replace': 3.0.1_rollup@2.67.1
   '@size-limit/preset-small-lib': 7.0.8_size-limit@7.0.8
@@ -2265,11 +2265,11 @@ packages:
       '@octokit/openapi-types': 11.2.0
     dev: true
 
-  /@rollup/plugin-commonjs/21.0.1_rollup@2.67.1:
-    resolution: {integrity: sha512-EA+g22lbNJ8p5kuZJUYyhhDK7WgJckW5g4pNN7n4mAFUM96VuwUnNT3xr2Db2iCZPI1pJPbGyfT5mS9T1dHfMg==}
-    engines: {node: '>= 8.0.0'}
+  /@rollup/plugin-commonjs/22.0.0_rollup@2.67.1:
+    resolution: {integrity: sha512-Ktvf2j+bAO+30awhbYoCaXpBcyPmJbaEUYClQns/+6SNCYFURbvBiNbWgHITEsIgDDWCDUclWRKEuf8cwZCFoQ==}
+    engines: {node: '>= 12.0.0'}
     peerDependencies:
-      rollup: ^2.38.3
+      rollup: ^2.68.0
     dependencies:
       '@rollup/pluginutils': 3.1.0_rollup@2.67.1
       commondir: 1.0.1
