@@ -148,25 +148,25 @@ export class TextElement extends RenderedElement {
 
   protected getTextFromNode(node?: ChildNode) {
     const textNode = node || this.node
-    const childNodes = Array.from(textNode.parentNode.childNodes)
-    const index = childNodes.indexOf(textNode)
-    const lastIndex = childNodes.length - 1
-    let text = compressSpaces(
-      // textNode.value
-      // || textNode.text
-      textNode.textContent
-      || ''
-    )
+    // const childNodes = Array.from(textNode.parentNode.childNodes)
+    // const index = childNodes.indexOf(textNode)
+    // const lastIndex = childNodes.length - 1
+    // let text = compressSpaces(
+    //   // textNode.value
+    //   // || textNode.text
+    //   textNode.textContent
+    //   || ''
+    // )
 
-    if (index === 0) {
-      text = trimLeft(text)
-    }
+    // if (index === 0) {
+    //   text = trimLeft(text)
+    // }
 
-    if (index === lastIndex) {
-      text = trimRight(text)
-    }
+    // if (index === lastIndex) {
+    //   text = trimRight(text)
+    // }
 
-    return text
+    return  textNode.textContent || '';
   }
 
   override renderChildren(ctx: RenderingContext2D) {

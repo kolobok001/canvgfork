@@ -1,7 +1,7 @@
 {
   "name": "canvgforked",
   "type": "module",
-  "version": "4.0.1",
+  "version": "4.0.5",
   "description": "JavaScript SVG parser and renderer on Canvas.",
   "author": "Gabe Lerner",
   "authors": [
