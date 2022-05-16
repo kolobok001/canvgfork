@@ -1,7 +1,7 @@
 {
   "name": "canvgforked",
   "type": "module",
-  "version": "4.0.5",
+  "version": "4.0.6",
   "description": "JavaScript SVG parser and renderer on Canvas.",
   "author": "Gabe Lerner",
   "authors": [
@@ -38,11 +38,11 @@
   "sideEffects": false,
   "main": "./src/index.ts",
   "publishConfig": {
-    "main": "./dist/index.cjs",
+    "main": "./dist/index.js",
     "module": "./dist/index.js",
     "types": "./dist/index.d.ts",
     "exports": {
-      "require": "./dist/index.cjs",
+      "require": "./dist/index.js",
       "import": "./dist/index.js"
     },
     "directory": "package"
