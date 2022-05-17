@@ -1,9 +1,6 @@
 import { RenderingContext2D } from '../types'
 import {
   toNumbers,
-  compressSpaces,
-  trimLeft,
-  trimRight
 } from '../util'
 import { Font } from '../Font'
 import { BoundingBox } from '../BoundingBox'
